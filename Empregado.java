@@ -6,6 +6,8 @@ public class Empregado{
     private double comissao;
     private double bonus;
 
+
+
     public double calcularSalario(){
         if(tipo == 1){
             return salario;
@@ -31,6 +33,13 @@ public class Empregado{
     }
     public void setIdade(int idade){
         this.idade = idade;
+    }
+
+    public int getTipo() {
+        return tipo;
+    }
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
     }
 
 }
